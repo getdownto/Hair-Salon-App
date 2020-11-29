@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="80" viewBox="0 0 136 80">
+  <g id="Group_1" data-name="Group 1" transform="translate(-453.586 -619)">
+    <g id="Path_2" data-name="Path 2" transform="translate(453.586 619)" fill="#fff">
+      <path d="M 135 79 L 1 79 L 1 1 L 135 1 L 135 79 Z" stroke="none"/>
+      <path d="M 2 2 L 2 78 L 134 78 L 134 2 L 2 2 M 0 0 L 136 0 L 136 80 L 0 80 L 0 0 Z" stroke="none" fill="#c4a981"/>
+    </g>
+    <text id="BLOWN_AWAY" data-name="BLOWN
+AWAY" transform="translate(521.586 654)" fill="#c4a981" font-size="27" font-family="Raleway"><tspan x="-50.787" y="0">BLOWN</tspan><tspan x="-38.516" y="31">AWAY</tspan></text>
+  </g>
+</svg>

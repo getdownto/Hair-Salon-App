@@ -1,0 +1,109 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+}
+
+.logo-container {
+    max-width: 100px;
+    padding: 0.5rem;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.navigation-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+}
+
+.nav-item a:hover {
+    border-bottom: 3px solid #C4A981;
+}
+
+.no-underline:hover {
+    border-color: transparent !important;
+}
+
+.nav-item i {
+    color: #C4A981;
+    font-size: 1.3rem;
+}
+
+.nav-cta {
+    background-color: #C4A981;
+    padding: 15px;
+    max-width: 85px;
+    position: relative;
+}
+
+.nav-cta::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-top: 42.5px solid #C4A981;
+    border-top-color:  #C4A981; 
+    border-left: 42.5px solid transparent;
+    border-right: 42.5px solid transparent; 
+}
+
+.nav-cta a {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.nav-cta-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.hero {
+    background: linear-gradient(rgba(255, 255, 255, 0.301), rgba(34, 34, 34, 0.301)), url('/assets/images/close-up-dandelion-head-with-few-fluffy-dried-dandelion-pappus.png') no-repeat center;
+    background-size: cover;
+    min-height: 70vh;
+    color: #ffffff;
+}
+
+.hero-content {
+    margin-left: 12.5%;
+    padding-top: 10%;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.hero-content h4 {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color:  #3F4C46;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.btn-light:hover {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
