@@ -1,0 +1,19 @@
+.meet-the-team-section {
+    background-color: #ececec;
+    padding: 4rem 12%;
+    text-align: center;
+}
+
+.meet-the-team-section h2, .services-section h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #3F4C46;
+    margin-bottom: 4rem;
+}
+
+.team-carts-container {
+    display: flex;
+    justify-content: space-between;
+}
+

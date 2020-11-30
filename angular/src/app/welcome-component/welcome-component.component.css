@@ -1,0 +1,71 @@
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.welcome-section-third {
+    flex-basis: 32.5%;
+    background-color: #F7F7F7;
+}
+
+.welcome-image img {
+    width: 100%;
+}
+
+.welcome-content{
+    padding: 2rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-content h5 {
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-content p {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-opening-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.opening-houts-row {
+    padding: 0.6rem;
+}
+
+.opening-houts-row h6 {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.welcome-cta {
+    background-color: #C4A981;
+    color: #ffffff;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.welcome-cta:hover {
+    background-color: #ececec;
+    color: #C4A981;
+    cursor: pointer;
+}
+
+hr {
+    max-width: 10%;
+    margin-left: 45%;
+}

@@ -43,3 +43,29 @@ li {
 .btn:hover {
     cursor: pointer;
 }
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #C4A981;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    color: #C4A981;
+    background-color: transparent;
+    border-color: #C4A981;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color:  #3F4C46;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.btn-light:hover {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
